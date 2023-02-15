@@ -1,0 +1,129 @@
+body {
+  background-image: url(../images/Fond.svg), linear-gradient(to bottom right, blue, lightblue);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.row {
+  display: table;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  background-color: rgba(0,0,0,.2);
+  border-radius: 8px;
+  padding: 10px;
+  width: 700px;
+}
+.grid-item {
+  background-color: WhiteSmoke;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  padding: 10px;
+  font-family: arial;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.grid-item:hover {
+    background-color: White;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: arial;
+  font-size: 200px;
+  color: white;
+  text-shadow: 5px 5px 15px black;
+}
+
+.button {
+  background-color: WhiteSmoke;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  padding: 10px;
+  font-family: arial;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.button:hover {
+    background-color: White;
+}
+
+.button2 {
+  background-color: Lightgreen;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  padding: 10px;
+  font-family: arial;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.button2:hover {
+    filter: brightness(150%);
+}
+
+.button3 {
+  background-color: Orange;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  padding: 10px;
+  font-family: arial;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.button3:hover {
+    filter: brightness(150%);
+}
+
+.button4 {
+  background-color: Crimson;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  padding: 10px;
+  font-family: arial;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.button4:hover {
+    filter: brightness(150%);
+}
