@@ -1,9 +1,20 @@
 body {
-  background-image: url(../images/Fond.svg), linear-gradient(to bottom right, blue, lightblue);
+  background-image: url(../images/Fond.svg), linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .center-screen {
